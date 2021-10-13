@@ -1,0 +1,108 @@
+.sepet-bos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:30px;
+    font-weight: bold;
+    color: red;
+}
+
+.sepet-bos i{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.sepet-bos p{
+    margin-bottom: 15px;
+
+}
+
+.sepet-bos a{
+    color: white;
+    background-color: #0E3150;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sepet-bos a:hover{
+    transition: 0.25s;
+    color: #0E3150;
+    background-color: white;
+    border: 1px solid #0E3150;
+}
+
+.sepetim-header{
+    background-color: #dfdfdf;
+    color: #0E3150;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.sepet-table{
+    width: 100%;
+    overflow-x:auto
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px 3px 8px 3px;
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2}
+  tr:hover {background-color: #d2d2d2;}
+
+  .btnTd{
+      width: 100px;
+  }
+
+  .btn{
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
+  .btn:hover{
+    cursor: pointer;
+  }
+
+  .siparis{
+      color: white;
+      background-color: #5cb85c;
+  }
+  
+  .iptal{
+    background-color:#d9534f;
+    color: white;
+  }
+
+  .onay{
+      width: 100%;
+      padding: 10px 0 10px 0;
+      border: 1px solid;
+      background-color: #007bff;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 25px;
+  }
+
+  .onay:hover{
+    transition: 0.25s;
+    color: #007bff;
+    background-color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-color :#007bff;
+  }
+  
+

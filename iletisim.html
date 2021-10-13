@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawseome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/iletisim.css">
+    <link rel="stylesheet" media="(max-width:992px)" href="css/large-screen.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="css/medium-screen.css">
+    <link rel="stylesheet" media="(max-width:576px)" href="css/small-screen.css">
+    <title>myshop iletisim</title>
+</head>
+
+<body>
+
+    <div id="main">
+
+        <header></header>
+
+        <div class="container">
+            <div class="sidebar"></div>
+            <div class="content">
+
+                <div class="contact">
+                    <div class="info">
+                        <h2>İletişim</h2>
+                        <hr />
+                        <p><i>İnternette güvenli alışverişin adresi myshop.com'a aşağıdaki iletişim adreslerinden
+                                kolayca ulaşabilirsiniz.</i></p>
+                        <br />
+                        <h3> Şirket Bilgileri </h3>
+                        <hr />
+                        <h4><i class="fas fa-building"></i> Ünvanı</h4>
+                        <p> myshop Elektronik Hizmetler ve Tic. A.Ş.(myshop.com)</p>
+                        <h4><i class="fas fa-info"></i> Ticari Sicil Numarası</h4>
+                        <p> 632732</p>
+                        <h4><i class="fas fa-map-marker-alt"></i> Genel Müdürlük</h4>
+                        <p> Kuştepe Mah. Mecidiyeköy Yolu Cad. Trump Towers Kule 2 Kat:2 No:12 34387 Şişli/İstanbul</p>
+                        <h4><i class="fas fa-map-marker-alt"></i> Operasyon Merkezi</h4>
+                        <p> İnönü Mah. Mimar Sinan Cad. No: 3 Gebze Güzeller OSB Gebze/Kocaeli</p>
+                        <h4><i class="fas fa-envelope"></i> Mail Adresi</h4>
+                        <p> myshop@info.com</p>
+                        <h4><i class="fas fa-phone"></i> Telefon Numarası</h4>
+                        <p> 0850 252 44 12</p>
+                    </div>
+                    <div id="map" class="map">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <footer></footer>
+
+    </div>
+
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/footer.js"></script>
+    <script>
+        function initMap() {
+            // The location of Uluru
+            const uluru = { lat: 41.0681, lng: 28.9922 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
+        }
+    </script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmzMAEoAOlycGUhoyJeDXZDD7JtF6nCqU&callback=initMap&libraries=&v=weekly"
+    async
+  ></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+/* - - - İ L E T İ Ş İ M - - - */
+.contact{
+    display: flex;
+    margin:5px 0 10px 5px;
+    padding: 10px;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+.contact .info{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.contact .info h4{
+    margin-top: 10px;
+}
+
+.map {
+    margin: 0 auto 0 auto;
+    height: 400px;
+    width: 50%;
+  }

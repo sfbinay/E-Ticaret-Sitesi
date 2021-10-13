@@ -1,0 +1,54 @@
+/* - - - H E A D E R - - - */
+.my-header{
+    padding: 5px 0 5px 0;
+}
+
+.my-header .header-user{
+    margin-right: 0px;
+}
+
+.my-header .header-logo{
+    margin-left: 0px;
+}
+
+.my-header .header-user i{
+    margin-right: 2px;
+}
+
+/* - - - S I D E   B A R  &  C O N T E N T - - - */
+
+.container{
+    width: 100%;
+}
+
+.container .sidebar{
+    width: 30%;
+}
+
+/* - - - Content - - -*/
+
+.container .content-item{
+    width: 70%;
+    height: 1000px;
+}
+
+/* - - - H A B E R L E R - - -*/
+.haberler .haber{
+    flex-direction: column;
+}
+
+.haber img{
+    object-fit: cover;
+}
+
+
+/* - - - D E T A I L - - - */
+
+.detail-box .item{
+    flex-direction: column;
+    align-items: center;
+}
+
+.item .item-side-detail{
+    padding-left: 0px;
+}

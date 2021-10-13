@@ -1,0 +1,79 @@
+/* - - - F O R M - - - */
+.space{
+    width: 20px;
+    height: 20px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+}
+
+.form-container h2{
+    color: #0E3150;
+    margin-bottom: 15px;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    font-size:20px;
+}
+
+.form-container form input{
+    margin: 5px 0 10px 0;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+.form-container form .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:5px;
+}
+
+.form-container form .buttons button{
+    padding: 12px;
+    border: 1px solid #dfdfdf;
+    background-color: #0E3150;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.form-container form .buttons a{
+    border: 1px solid #0E3150;
+    color: #0E3150;
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container form .remember{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.form-container form .remember input{
+    width: fit-content;
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+.form-container form .remember label{
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.form-container form .buttons button:hover{
+    cursor: pointer;
+}

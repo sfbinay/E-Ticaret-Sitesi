@@ -1,0 +1,113 @@
+/* - - - H E A D E R - - - */
+.my-header{
+    flex-wrap:wrap;
+}
+
+.my-header .header-menu{
+    width: 70%;
+}
+
+.my-header .header-user i{
+    margin-right: 10px;
+}
+
+.my-header .header-user{
+    width: 100%;
+    justify-content: space-around;
+    margin-right: 5px;
+    padding: 10px 0 10px 0;
+}
+
+/* - - - S I D E   B A R  &  C O N T E N T - - - */
+
+.container{
+    flex-direction: column;
+}
+
+.container .sidebar{
+    width: 100%;
+}
+
+.container .sidebar ul li span{
+    padding: 5px 20px 5px 20px;
+}
+
+.main-ul{
+    display: none;
+}
+
+#kategoriler{
+    color: #007bff;
+}
+
+#kategoriler:hover{
+    cursor: pointer;
+}
+
+
+/* - - - Content - - -  */
+
+.container .content{
+    width: 100%;
+}
+
+
+/* - - - F O O T E R - - - */
+
+.my-footer .footer-content{
+    flex-wrap: wrap;
+}
+
+.my-footer .footer-content .footer-logo{
+    width: 50%;
+}
+
+.my-footer .footer-content .footer-menu {
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.my-footer .footer-content .footer-user{
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.my-footer .footer-content .footer-social-media{
+    width: 50%;
+}
+
+
+/* - - - İ L E T İ Ş İ M - - - */
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin:5px 0 10px 5px;
+    padding: 10px;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+.contact .info{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.contact .info h4{
+    margin-top: 10px;
+}
+
+.map {
+    margin: 20px auto 0 auto;
+    height: 400px;
+    width: 90%;
+}
+
+/* - - - R E K L A M  - - -*/
+.ad-container{
+    width: 100%;
+}

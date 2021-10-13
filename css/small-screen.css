@@ -1,0 +1,37 @@
+/* - - - H E A D E R - - - */
+.my-header .header-logo{
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 0px;
+    padding: 10px 0 10px 0;
+}
+
+.my-header .header-menu{
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.my-header .header-user .header-hesabim{
+    margin-right: 20px;
+}
+
+/* - - - F O O T E R - - - */
+
+
+.my-footer .footer-content .footer-logo{
+    width: 100%;
+}
+
+.my-footer .footer-content .footer-menu {
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.my-footer .footer-content .footer-user{
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.my-footer .footer-content .footer-social-media{
+    width: 100%;
+}
