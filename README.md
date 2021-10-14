@@ -14,7 +14,7 @@ Not: CORS Policy hatası için farklı tarayıcı deneyiniz.
 | :heavy_check_mark: Javascript  |
 | :heavy_check_mark: jQuery |
 
-## Application Images
+## Uygulama Ekran Görüntüleri
 
 <p>
   
