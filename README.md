@@ -1,6 +1,6 @@
 # E-Ticaret Sitesi
 ## :scroll: Proje Hakkında
-Bu proje temel Frontend becerilerimin geliştirilmesi için yapılmış bir E-Ticaret uygulamasıdır. Uygulamada ürünler dinamik olarak servisden API ile gelmektedir. Her ürüne ait bir detay sayfası da vardır. Kullanıcı sepetine ürün ekleyebilmek için giriş yapması gerekmektedir. Kullanıcının kayıt olması ve giriş yapması da servisden sağlanmaktadır. Kayıt olup giriş yapmış kullanıcının profil sayfası vardır. Kullanıcı profil sayfasında bilgilerini güncelleyebilir, şifresini değiştirebilir ve siparişlerini görüntüleyebilmektedir. Sepette onaylanan siparişler servise aktarılmaktadır, profildeki siparişler de servisten gelmektedir.
+Bu proje temel Frontend becerilerimin geliştirilmesi için yapılmış bir E-Ticaret uygulamasıdır. Uygulamada ürünler, kategoriler ve haberler dinamik olarak servisden API ile gelmektedir. Her ürüne ait bir detay sayfası da vardır. Kullanıcı sepetine ürün ekleyebilmek için giriş yapması gerekmektedir. Kullanıcının kayıt olması ve giriş yapması da servisden sağlanmaktadır. Kayıt olup giriş yapmış kullanıcının profil sayfası vardır. Kullanıcı profil sayfasında bilgilerini güncelleyebilir, şifresini değiştirebilir ve siparişlerini görüntüleyebilmektedir. Sepette onaylanan siparişler servise aktarılmaktadır, profildeki siparişler de servisten gelmektedir.
 
 Not: CORS Policy hatası için farklı tarayıcı deneyiniz.
 
